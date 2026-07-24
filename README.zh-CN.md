@@ -5,6 +5,18 @@ A C++ simulation of the traditional Dayan yarrow-stalk divination process, with 
 
 一个使用 C++ 编写的大衍蓍草卜筮模拟程序。项目使用硬件随机数，追踪每一根蓍草的状态，支持一爻三变、六爻本卦与变卦生成、六十四卦映射，以及基于爻的二进制随机数生成。
 
+> **“The number of the Great Expansion is fifty, of which forty-nine are used.  
+> They are divided into two to symbolize the Two; one is set aside to symbolize the Three.  
+> They are counted off in fours to symbolize the four seasons, and the remainders are placed between the fingers to symbolize the intercalary month.”**
+>
+> — *The Book of Changes, Great Treatise (Xici Zhuan)*
+
+> **“大衍之数五十，其用四十有九。  
+> 分而为二以象两，挂一以象三。  
+> 揲之以四以象四时，归奇于扐以象闰。”**
+>
+> ——《周易·系辞上传》
+
 ---
 
 ## Language / 语言
