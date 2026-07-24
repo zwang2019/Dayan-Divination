@@ -70,6 +70,9 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TargetName>dayan</TargetName>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -129,11 +132,13 @@
   <ItemGroup>
     <ClCompile Include="Divination.cpp" />
     <ClCompile Include="HardwareRandom.cpp" />
+    <ClCompile Include="HexagramMapping.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Divination.h" />
     <ClInclude Include="HardwareRandom.h" />
+    <ClInclude Include="HexagramMapping.h" />
     <ClInclude Include="YarrowStalk.h" />
   </ItemGroup>
   <ItemGroup>
